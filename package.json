@@ -1,0 +1,29 @@
+{
+  "name": "ledger",
+  "version": "0.0.1",
+  "description": "Ledger for managing a collection of transactions.",
+  "main": "dist/ledger.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.test.js",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "keywords": [
+    "ledger",
+    "transaction",
+    "finance"
+  ],
+  "author": "Michael King (michael@kingcommamichael.com)",
+  "license": "ISC",
+  "source": "index.js",
+  "module": "dist/ledger.m.js",
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "tap": "^14.10.7"
+  }
+}
